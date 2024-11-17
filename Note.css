@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  height: 100vh;
+  background: beige;
+}
+.Note {
+  width: 50px;
+  height: 50px;
+}
+h2 {
+  display: block;
+  font-size: 60px;
+  margin: 30px;
+}
+.WriteNote {
+  background: white;
+  width: 260px;
+  position: relative;
+}
+.WriteNote textarea {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  font-size: 17px;
+  outline: none;
+  border: none;
+  margin-bottom: 20px;
+  position: relative;
+}
+.Notes .note {
+  width: 200px;
+  height: fit-content;
+  background: gainsboro;
+  padding: 10px;
+  color: black;
+  border-radius: 10px;
+  position: relative;
+  font-size: 17px;
+  font-weight: 400;
+  margin: 10px;
+}
+.WriteNote img {
+  position: absolute;
+  right: 0;
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+}
+.container img {
+  cursor: pointer;
+}
+.trash {
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+}
+.eddit {
+  position: absolute;
+  right: 30px;
+  bottom: -3px;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+}
+.Notes .note img {
+  width: 15px;
+  height: 15px;
+  padding: 5px;
+  border-radius: 3px;
+}
+.Notes .note img:hover {
+  background: rgba(0, 0, 0, 0.384);
+}
+p {
+  width: 80%;
+  word-break: break-all;
+}
