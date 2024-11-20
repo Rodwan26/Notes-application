@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(45deg, blue, red);
+  height: fit-content;
+}
+.SlideMenu {
+  background: black;
+  height: fit-content;
+  width: 30%;
+  margin: 5px;
+  padding: 1px;
+  border-radius: 5px;
+}
+.active {
+  border: 3px blue solid;
+}
+.SlideMenu .user {
+  word-wrap: break-word;
+  width: 95%;
+  background: gray;
+  margin: 5px;
+  margin-top: 5px;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.content {
+  display: flex;
+}
+.SlideMenu .user h3 {
+  border-bottom: 2px solid black;
+  padding-bottom: 2px;
+  margin-bottom: 10px;
+}
+.Menu {
+  width: 70%;
+  min-height: calc(100vh - 20px);
+  max-height: fit-content;
+  background: whitesmoke;
+  margin: 5px;
+  border-radius: 5px;
+}
+.UserPost {
+  margin: 5px;
+  padding: 5px;
+
+  padding-bottom: 15px;
+  background: rgb(179, 179, 231);
+  border-radius: 5px;
+}
+.UserPost h2 {
+  text-transform: capitalize;
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+  padding: 4px;
+}
+.UserPost p {
+  font-size: 17px;
+}

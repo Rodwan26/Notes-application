@@ -13,7 +13,7 @@ function displayNotes() {
       <div class="note" id="note">
             <p>${note.body}</p>
             <img src="Trash.png" alt="trash" onclick="deleteNote(${i})"  class="trash" />
-            <img src="iddit.png" alt="eddit" onclick="eddit('${a}',${i})" class="eddit" />
+            <img src="iddit.png" alt="eddit" onclick="edditNote('${a}',${i})" class="eddit" />
           </div>
      `;
     i++;
@@ -50,7 +50,7 @@ function getStorege() {
     notesTable = notesTable;
   }
 }
-function eddit(p, index) {
+function edditNote(p, index) {
   document.getElementById("WriteNote").value = p;
   deleteNote(index);
   displayNotes();
@@ -60,7 +60,7 @@ function disableEditButtons() {
   let editButtons = document.querySelectorAll(".eddit");
   editButtons.forEach((eddit) => {
     eddit.style.pointerEvents = "none";
-    eddit.style.cursor = "not-allowed";
+    eddit.style.cursor = " no-drop";
   });
 }
 /*
