@@ -38,7 +38,7 @@ h2 {
   position: relative;
 }
 .Notes .note {
-  width: 240px;
+  width: 200px;
   height: fit-content;
   background: gainsboro;
   padding: 10px;
@@ -47,7 +47,7 @@ h2 {
   position: relative;
   font-size: 17px;
   font-weight: 400;
-  margin: 10px;
+  margin: 5px;
 }
 .WriteNote img {
   position: absolute;
@@ -78,11 +78,11 @@ h2 {
 }
 .bgnotes {
   display: flex;
-  background: rgb(110, 109, 109);
-  width: 300px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: column;
+      background: rgb(110, 109, 109);
+      width: 230px;
+      align-items: center;
+      justify-content: flex-start;
+      flex-direction: column;
 }
 .Note {
   margin-left: 40px;
@@ -153,7 +153,7 @@ h2 {
   position: relative;
   font-size: 17px;
   font-weight: 400;
-  margin: 10px;
+  margin: 5px;
 }
 .WriteNote img {
   position: absolute;
